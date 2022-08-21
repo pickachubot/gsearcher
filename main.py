@@ -9,7 +9,7 @@ from pyrogram.types import *
 
 
 load_dotenv()
-API = "https://google.com/search="
+API = "https://www.google.com/search?tbm=isch&q="
 
 
 Bot = Client(
@@ -81,8 +81,8 @@ async def inline(bot, update):
     await update.answer(answers)
 
 
-def google(query):
-    r = requests.get(API + requote_uri(search))
+def google(tbm=isch&q=):
+    r = requests.get(API + requote_uri(tbm=isch&q=))
     informations = r.json()["results"][:50]
     results = []
     for info in informations:
