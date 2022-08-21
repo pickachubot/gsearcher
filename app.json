@@ -1,6 +1,6 @@
 {
     "name": "GsearchxBot",
-    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "description": "Simple Telegram Bot in Which you can search From Google and you can use it in inline too",
     "stack": "container",
     "keywords": [
       "telegram",
