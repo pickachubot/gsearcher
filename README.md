@@ -16,3 +16,5 @@ A google search telegram bot
 https://api.abirhasan.wtf/google
 
 ---
+
+https://www.heroku.com/deploy/?template=https://github.com/pickachubot/gsearcher
