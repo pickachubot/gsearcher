@@ -9,7 +9,7 @@ from pyrogram.types import *
 
 
 load_dotenv()
-API = "https://google.com/search?=q"
+API = "https://google.com/search?=query"
 
 
 Bot = Client(
